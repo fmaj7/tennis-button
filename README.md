@@ -1,6 +1,6 @@
 # tennis-tracker
 
-## env
+## env requirements
 * pyenv
 * pyenv-virtualenv
 
