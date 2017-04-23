@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
-
-rm -f tennis_tracker.zip && zip -r tennis_tracker.zip ./*
-ZIP_FILE_PATH=$(realpath tennis_tracker.zip)
+FILE_NAME=tennis_button.zip
+rm -f $FILE_NAME && zip -r $FILE_NAME ./*
+ZIP_FILE_PATH=$(realpath $FILE_NAME)
 cd $VIRTUAL_ENV/lib/python2.7/site-packages/
 zip -r $ZIP_FILE_PATH ./*
