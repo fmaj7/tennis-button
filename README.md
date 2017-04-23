@@ -5,6 +5,8 @@
 * pyenv-virtualenv
 
 ## how to start work on it
-* pyenv virtualenv 2.7 tennis-button
-* pyenv activate tennis-button
-* pip install -r requirements.txt
+```zsh
+pyenv virtualenv 2.7 tennis-button
+pyenv activate tennis-button
+pip install -r requirements.txt
+```
