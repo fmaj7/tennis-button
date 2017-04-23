@@ -1,4 +1,4 @@
-# tennis-tracker
+# tennis-button
 
 ## env requirements
 * pyenv
